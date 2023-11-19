@@ -1,0 +1,1148 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/clash-display");
+
+.pricing-hero-container {
+  height: calc(410px - 90px);
+  width: 100%;
+  background: #541554;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pricing-hero-container > h3 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 88px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.pricing-hero-container > p {
+  width: 609px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+/* PAYMENT SECTION */
+.payment-container {
+  /* height: 1740px; */
+  margin-top: 50px;
+  width: 100%;
+}
+.payment-container > h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #541554;
+  padding: 20px 0;
+}
+.payment-container > h3 {
+  width: 540px;
+  display: block;
+  margin: 0 auto;
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #181818;
+}
+.payment-container > p {
+  width: 359px;
+  display: block;
+  margin: 0 auto;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  text-align: center;
+  color: #969696;
+  padding-bottom: 20px;
+}
+.nav-payment-tabs {
+  height: 78px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.nav-payment-tab-item {
+  border: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #323232;
+  margin: 0 10px;
+  background: transparent;
+}
+.nav-payment-tab-item.active {
+  width: 80px;
+  height: 30px;
+  background: #541554;
+  box-shadow: 0px 0px 3.17571px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11.115px;
+  line-height: 16px;
+  color: white;
+}
+.yearly-text {
+  position: relative;
+}
+.yearly-discount {
+  position: absolute;
+  top: -50px;
+  width: 78px;
+  height: 30px;
+  background-color: #541554;
+  left: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.yearly-discount > p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.yearly-discount p:after {
+  position: absolute;
+  content: '';
+  background: #541554;
+  width: 13px;
+  height: 14px;
+  left: 10px;
+  bottom: -2px;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+.pricing-plan-card-1 {
+  background: #fef1ff;
+  border: 1px solid #f2f2f2;
+  border-radius: 14px;
+  width: 360px;
+  height: 707px;
+  padding: 15px 20px;
+}
+.pricing-plan-card-2 {
+  background: #fef1ff;
+  border: 1px solid #f2f2f2;
+  border-radius: 14px;
+  width: 360px;
+  height: 937px;
+  padding: 15px 20px;
+}
+.pricing-plan-card-3 {
+  background: #fef1ff;
+  border: 1px solid #f2f2f2;
+  border-radius: 14px;
+  width: 360px;
+  height: 1239px;
+  padding: 15px 20px;
+}
+.plans-heading-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 65px;
+  color: #541554;
+  padding: 10px 0;
+}
+.plans-heading-text > span {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #969696 !important;
+}
+.plans-heading {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #323232;
+}
+.plans-heading-body {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #666666;
+}
+.plan-list > ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 40px;
+}
+.plan-list > ul > li {
+  padding: 10px 0;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.plan-list > ul > li > img {
+  width: 18px;
+  height: 18px;
+}
+.plan-list > ul > li > p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #646464;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+.btn-choose-Plan {
+  padding: 16px 32px;
+  height: 61px;
+  width: 169px;
+  border: 1px solid #541554;
+  border-radius: 14px;
+  background-color: transparent;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 180%;
+  color: #541554;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.btn-choose-Plan:hover {
+  background-color: #6a336a;
+}
+.btn-choose-Plan:hover a{
+  color: #fff !important;
+}
+.btn-choose-Plan-dark {
+  background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.15) 23.96%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #541554;
+  border-radius: 14px;
+  padding: 16px 32px;
+  height: 61px;
+  width: 169px;
+  border: 1px solid #541554;
+  border-radius: 14px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 180%;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.faqs-container {
+  padding: 50px 0;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(0deg, #541554, #541554), #1c1d41;
+}
+.faqs-container > h3 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 60px;
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  color: #ffffff;
+}
+.accordion-item {
+  background: #541554;
+  opacity: 0.1;
+  border-radius: 8px;
+  width: 862px;
+  opacity: 1;
+  margin-bottom: 10px;
+}
+.accordion-button {
+  background-color: #8f4497;
+  color: white;
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  letter-spacing: 0.2px;
+
+  color: #fafafb;
+}
+
+.accordion-body {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  /* or 170% */
+
+  color: #bdbdbd;
+}
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+  color: white;
+}
+.accordion-button:focus {
+  box-shadow: none !important  ;
+  border: 0 !important;
+}
+@media (max-width: 767px) {
+  .accordion {
+    width: 100%;
+  }
+  .pricing-hero-container {
+    height: auto;
+    padding: 35px 0;
+  }
+  .pricing-hero-container > h3 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .pricing-hero-container > p {
+    width: 100%;
+  }
+}
+
+/* Last section */
+.landing-last-sec {
+  height: 385px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #541554;
+}
+.landing-last-sec > h3 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  padding: 0 10px;
+}
+.landing-last-sec > button {
+  height: 61px;
+  width: 169px;
+  background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.15) 23.96%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #ffffff;
+  border-radius: 14px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 180%;
+  color: #541554;
+  border: 0;
+  margin-top: 15px;
+}
+
+.plans-tabs-container {
+  width: 100%;
+  padding-top: 50px;
+}
+.plans-tabs-container > h3 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: -0.5px;
+
+  color: #181818;
+}
+.nav-pills {
+  width: 230px;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-right: 1px solid #d3d3d3;
+  align-items: center;
+}
+.nav-pills > p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #9d9d9d;
+}
+.pill-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+
+  color: #3c3c3c;
+}
+.tabs-container {
+  width: 1230px;
+  height: auto;
+  padding-bottom: 30px;
+  background: #ffffff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 14px;
+}
+.nav-pills-tabs {
+  display: flex;
+  align-items: center;
+}
+.tab-inner-active {
+  background-color: #541554;
+  border-radius: 14px;
+  position: relative;
+}
+.best-val-cont {
+  position: absolute;
+  background: #b47bfd;
+  top: -15px;
+  border-radius: 50px;
+  width: 164px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.best-val-cont > p {
+  color: white;
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+.tab-inner-active > h3,
+.tab-inner-active > h5,
+.tab-inner-active > p,
+.tab-inner-active > h6 {
+  color: white !important;
+}
+.tabs-inner {
+  width: 222px;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tabs-inner > h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  color: #3c3c3c;
+}
+.tabs-inner > p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #3c3c3c;
+}
+.tabs-inner > h5 {
+  margin-top: 60px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22.5px;
+  line-height: 31px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #541554;
+}
+.tabs-inner > h6 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+
+  color: #9f9f9f;
+}
+.nav-pill-btn {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11.115px;
+  line-height: 16px;
+  color: #181818;
+  border: 0;
+  outline: 0;
+  padding: 0 10px;
+  background-color: transparent;
+  margin-bottom: 15px;
+}
+.nav-pill-btn.active {
+  width: 85.07px;
+  height: 20px;
+  background: #541554;
+  box-shadow: 0px 0px 3.17571px rgba(0, 0, 0, 0.15);
+  border-radius: 6.35142px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11.115px;
+  line-height: 16px;
+
+  color: #ffffff;
+}
+.table-text {
+  margin-bottom: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 23px;
+  color: #3c3c3c;
+  padding: 15px 0;
+}
+.plan-color-row {
+  width: 1123px;
+  height: 41.75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fef1ff;
+  border-radius: 6px;
+  padding: 0 10px;
+}
+.plan-color-row > h6 {
+  margin-bottom: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #3c3c3c;
+  width: 310px;
+}
+.plan-color-row > p {
+  margin-bottom: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #3c3c3c;
+  width: 20px;
+}
+.plan-color-row > h5 {
+  margin-bottom: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #3c3c3c;
+  width: 60px;
+}
+.plan-simple-row {
+  width: 1123px;
+  height: 41.75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 0 10px;
+}
+.plan-simple-row > h6 {
+  margin-bottom: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #3c3c3c;
+  width: 310px;
+}
+.plan-simple-row > p {
+  margin-bottom: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #3c3c3c;
+  width: 20px;
+}
+.custm-width {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Media Queries */
+
+@media (max-width: 500px) {
+  .plan-color-row > h6,
+  .plan-simple-row > h6 {
+    width: 230px;
+  }
+  .btn-choose-Plan,
+  .btn-choose-Plan-dark {
+    height: 40px;
+    width: 146px;
+    padding: 5px;
+  }
+  .payment-container > h3 {
+    width: 100%;
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .payment-container > p {
+    width: 100%;
+  }
+  .nav-payment-tabs {
+    margin-top: 10px;
+  }
+  .plans-heading-text {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .plans-heading {
+    font-size: 27px;
+  }
+  .plan-list > ul {
+    margin-top: 10px;
+  }
+  .btn-choose-Plan {
+    margin-top: 10px;
+  }
+  .payment-container {
+    height: auto;
+  }
+  .pricing-plan-card-1,
+  .pricing-plan-card-2,
+  .pricing-plan-card-3 {
+    height: auto;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .landing-last-sec {
+    height: auto;
+    padding: 20px 0;
+  }
+  .landing-last-sec > h3 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .landing-last-sec > button {
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  .faqs-container {
+    height: auto;
+    padding: 30px 0;
+  }
+  .faqs-container > h3 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .accordion-item {
+    width: 100%;
+  }
+  .tabs-container {
+    width: 100%;
+  }
+  .plans-tabs-container > h3 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .tabs-parent {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .best-val-cont {
+    display: none;
+  }
+  .nav-pills-tabs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .nav-pills {
+    width: auto;
+    padding: 0 15px;
+    height: 200px;
+    border-right: 0;
+  }
+  .tabs-inner {
+    width: auto;
+    padding: 0 15px;
+    height: 200px;
+  }
+  .tabs-inner > h3 {
+    font-size: 25px;
+  }
+  .tabs-inner > p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .tabs-inner > h5 {
+    margin-top: 30px;
+  }
+  .plan-color-row {
+    width: 100%;
+    height: auto;
+    padding: 5px 0;
+  }
+  .plan-simple-row {
+    width: 100%;
+    height: auto;
+    padding: 5px 0;
+  }
+  .plan-simple-row > svg {
+    width: 10px;
+    margin-left: 2px;
+  }
+  .custm-width > svg {
+    width: 10px;
+  }
+  .plan-color-row > svg {
+    width: 10px;
+    margin-left: 2px;
+  }
+  .plan-color-row > h6,
+  .plan-simple-row > h6 {
+    width: 170px;
+    font-size: 13px;
+  }
+  .plan-color-row > h5 {
+    font-size: 10px;
+  }
+  .plan-color-row > p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 767px) {
+  .plan-color-row > h6,
+  .plan-simple-row > h6 {
+    width: 230px;
+  }
+  .btn-choose-Plan,
+  .btn-choose-Plan-dark {
+    height: 40px;
+    width: 146px;
+    padding: 5px;
+  }
+  .payment-container > h3 {
+    width: 100%;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .nav-payment-tabs {
+    margin-top: 10px;
+  }
+  .plans-heading-text {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .plans-heading {
+    font-size: 27px;
+  }
+  .plan-list > ul {
+    margin-top: 10px;
+  }
+  .btn-choose-Plan {
+    margin-top: 10px;
+  }
+  .payment-container {
+    height: auto;
+  }
+  .pricing-plan-card-1,
+  .pricing-plan-card-2,
+  .pricing-plan-card-3 {
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .landing-last-sec {
+    height: auto;
+    padding: 20px 0;
+  }
+  .landing-last-sec > h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .landing-last-sec > button {
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  .faqs-container {
+    height: auto;
+    padding: 30px 0;
+  }
+  .faqs-container > h3 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .accordion-item {
+    width: 100%;
+  }
+  .faqs-row {
+    margin-top: 25px !important;
+  }
+
+  .tabs-container {
+    width: 100%;
+  }
+  .plans-tabs-container > h3 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .tabs-parent {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .best-val-cont {
+    display: none;
+  }
+  .nav-pills-tabs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .nav-pills {
+    width: auto;
+    padding: 0 15px;
+    height: 200px;
+    border-right: 0;
+  }
+  .tabs-inner {
+    width: 220px;
+    padding: 0 15px;
+    height: 200px;
+  }
+  .tabs-inner > h3 {
+    font-size: 25px;
+  }
+  .tabs-inner > p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .tabs-inner > h5 {
+    margin-top: 30px;
+  }
+  .plan-color-row {
+    width: 100%;
+    height: auto;
+    padding: 5px 0;
+  }
+  .plan-simple-row {
+    width: 100%;
+    height: auto;
+    padding: 5px 0;
+  }
+  .plan-simple-row > svg {
+    width: 10px;
+    margin-left: 2px;
+  }
+  .custm-width > svg {
+    width: 10px;
+  }
+  .plan-color-row > svg {
+    width: 10px;
+    margin-left: 2px;
+  }
+  .plan-color-row > h6,
+  .plan-simple-row > h6 {
+    width: 170px;
+    font-size: 13px;
+  }
+  .plan-color-row > h5 {
+    font-size: 10px;
+  }
+  .plan-color-row > p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+  .faqs-container {
+    height: auto;
+    padding: 50px 0;
+  }
+  .faqs-container > h3 {
+    font-size: 40x;
+    line-height: 45px;
+  }
+  .accordion-item {
+    width: 100%;
+  }
+  .faqs-row {
+    margin-top: 25px !important;
+  }
+  .payment-container > h3 {
+    width: 100%;
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .nav-payment-tabs {
+    margin-top: 10px;
+  }
+  .plans-heading-text {
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .plans-heading {
+    font-size: 30px;
+  }
+  .plan-list > ul {
+    margin-top: 10px;
+  }
+  .btn-choose-Plan {
+    margin-top: 10px;
+  }
+  .payment-container {
+    height: auto;
+  }
+  .pricing-plan-card-1,
+  .pricing-plan-card-2,
+  .pricing-plan-card-3 {
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .pricing-hero-container > h3 {
+    line-height: 60px;
+  }
+
+  .tabs-container {
+    width: 100%;
+  }
+  .plans-tabs-container > h3 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .tabs-parent {
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .nav-pills {
+    width: auto;
+    padding: 0 15px;
+    height: 200px;
+    border-right: 0;
+  }
+  .tabs-inner {
+    width: 170px;
+    padding: 0 15px;
+    /* // height: 200px; */
+  }
+  .tabs-inner > h3 {
+    font-size: 25px;
+  }
+  .tabs-inner > p {
+    font-size: 14px;
+  }
+  .tabs-inner > h5 {
+    margin-top: 30px;
+  }
+  .plan-color-row {
+    width: 100%;
+  }
+  .plan-simple-row {
+    width: 100%;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1024px) {
+  .pricing-hero-container > h3 {
+    line-height: 65px;
+    padding: 0 5px;
+  }
+  .nav-pills {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .nav-pills-item .active {
+    width: 120px;
+  }
+  .pricing-plan-card-1 {
+    height: 715px;
+  }
+  .pricing-plan-card-3 {
+    height: 1305px;
+  }
+  .tabs-parent {
+    flex-direction: column !important;
+  }
+
+  .nav-pills {
+    width: auto;
+    padding: 0 15px;
+    height: 200px;
+    border-right: 0;
+  }
+  .tabs-inner {
+    min-width: 170px;
+    padding: 0 15px;
+    /* // height: 200px; */
+  }
+  .tabs-inner > h3 {
+    font-size: 35px;
+  }
+  .tabs-inner > p {
+    font-size: 15px;
+  }
+  /* .tabs-inner > h5 {
+    margin-top: 30px;
+  } */
+  .plan-color-row {
+    width: 100%;
+  }
+  .plan-simple-row {
+    width: 100%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .nav-pills {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .nav-pills-item .active {
+    width: 120px;
+  }
+  .tabs-parent {
+    flex-direction: column !important;
+  }
+
+  .nav-pills {
+    width: auto;
+    padding: 0 15px;
+    height: 200px;
+    border-right: 0;
+  }
+  .tabs-inner {
+    min-width: 230px;
+    padding: 0 15px;
+    /* // height: 200px; */
+  }
+  /* .tabs-inner > h3 {
+    font-size: 35px;
+  }
+  .tabs-inner > p {
+    font-size: 15px;
+  } */
+  /* .tabs-inner > h5 {
+    margin-top: 30px;
+  } */
+  .plan-color-row {
+    width: 100%;
+  }
+  .plan-simple-row {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .payment-row {
+    max-width: 1440px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1285px) {
+  .tabs-parent {
+    flex-direction: column !important;
+  }
+
+  .nav-pills {
+    width: auto;
+    padding: 0 15px;
+    height: 200px;
+    border-right: 0;
+  }
+  .tabs-inner {
+    min-width: 270px;
+    padding: 0 15px;
+    /* // height: 200px; */
+  }
+  /* .tabs-inner > h3 {
+    font-size: 35px;
+  }
+  .tabs-inner > p {
+    font-size: 15px;
+  } */
+  /* .tabs-inner > h5 {
+    margin-top: 30px;
+  } */
+  .plan-color-row {
+    width: 100%;
+  }
+  .plan-simple-row {
+    width: 100%;
+  }
+}
+
+@media (min-width:1024px) and (max-width:1200px){
+  .pricing-plan-card-3{
+    height: 1330px;
+  }
+}

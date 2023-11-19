@@ -1,0 +1,212 @@
+.about-header {
+
+    padding: 20% 0%;
+    background-image: url(/uploads/images/about-Background.png);
+    text-align: center;
+
+}
+
+.about-header h3 {
+
+
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 68px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.about-header p {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    max-width: 947px;
+
+}
+.about-header button {
+
+    background: #FFFFFF;
+border-radius: 14px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+
+padding: 10px;
+
+color: #541554;
+
+}
+
+.about-us .picture {
+
+    text-align: end;
+
+}
+
+.about-us h6 {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+
+    color: #541554;
+}
+
+.about-us h3 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.2px;
+    max-width: 400px;
+
+    color: #232323;
+}
+
+.about-us p {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #183B56;
+}
+
+
+.about-us-values {
+
+    text-align: center;
+    margin: 85px 0px;
+
+}
+
+.about-us-values h3 {
+
+
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.2px;
+
+    color: #232323;
+}
+
+.about-us-values p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 0 auto;
+    max-width: 843px;
+    padding: 30px 0px;
+
+    color: #5A7184;
+}
+
+.about-us-values ul li div {
+    background: #541554;
+}
+
+.about-us-values ul li h4 {
+
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    padding: 20px 0px;
+
+    color: #183B56;
+}
+
+.about-us-values ul li p {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    max-width: 498px;
+    color: #5A7184;
+}
+
+.about-us-team {
+
+    text-align: center;
+    margin: 85px 0px;
+
+
+}
+
+.about-us-team h4 {
+
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.2px;
+    color: #232323;
+    padding: 30px 0px;
+
+}
+
+.about-us-team ul {
+
+    background: #FFFFFF;
+    border: 1.07038px solid #E3E3E3;
+    border-radius: 17.1234px;
+}
+
+.about-us-team ul li h3 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 113.38%;
+    letter-spacing: -0.02em;
+
+    color: #000000;
+}
+
+.about-us-team ul li{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #000000;
+    opacity: 0.8;
+    padding: 10px 20px 10px 0px;
+}
+.about-us-team ul li p {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #000000;
+    opacity: 0.8;
+}

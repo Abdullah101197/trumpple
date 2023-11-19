@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/clash-display");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&family=Roboto:wght@400;500;700&display=swap");
+
+.our-team-container {
+  padding: 50px 0;
+}
+.our-team-container > h3 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  color: #232323;
+}
+.team-item-container {
+  width: 313.09px;
+  height: 122.02px;
+  background: #ffffff;
+  border: 1.07038px solid #e3e3e3;
+  border-radius: 17.1234px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.team-item-container > h3 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 113.38%;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+.team-item-container > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  margin-bottom: 0;
+  color: #000000;
+
+  opacity: 0.8;
+}
+.landing-last-sec {
+  height: 385px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #541554;
+}
+.landing-last-sec > h3 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  padding: 0 10px;
+}
+.landing-last-sec > button {
+  height: 61px;
+  width: 169px;
+  background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.15) 23.96%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #ffffff;
+  border-radius: 14px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 180%;
+  color: #541554;
+  border: 0;
+  margin-top: 15px;
+}
+
+@media (max-width: 500px) {
+  .about-items-row {
+    margin-top: 20px;
+  }
+  .about-values-item-1,
+  .about-values-item-2,
+  .about-values-item-3,
+  .about-values-item-4,
+  .about-values-item-5,
+  .about-values-item-6 {
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+  }
+  .about-val-item-text {
+    font-size: 15px;
+  }
+  .our-team-container {
+    padding: 0;
+  }
+  .our-team-container > h3 {
+    font-size: 25px;
+  }
+  .team-item-container {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 100px;
+  }
+  .team-item-container > h3 {
+    font-size: 19px;
+  }
+  .landing-last-sec {
+    height: auto;
+    padding: 20px 0;
+  }
+  .landing-last-sec > h3 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .landing-last-sec > button {
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 767px) {
+  .about-items-row {
+    margin-top: 20px;
+  }
+  .about-values-item-1,
+  .about-values-item-2,
+  .about-values-item-3,
+  .about-values-item-4,
+  .about-values-item-5,
+  .about-values-item-6 {
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+  }
+  .about-val-item-text {
+    font-size: 15px;
+  }
+  .our-team-container {
+    padding: 0;
+  }
+  .our-team-container > h3 {
+    font-size: 30px;
+  }
+  .team-item-container {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 100px;
+  }
+  .team-item-container > h3 {
+    font-size: 19px;
+  }
+  .landing-last-sec {
+    height: auto;
+    padding: 20px 0;
+  }
+  .landing-last-sec > h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .landing-last-sec > button {
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+  .about-values-item-1,
+  .about-values-item-2,
+  .about-values-item-3,
+  .about-values-item-4,
+  .about-values-item-5,
+  .about-values-item-6 {
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+  }
+  .our-team-container {
+    padding: 0;
+  }
+  .team-item-container {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1024px) {
+  .about-items-row {
+    margin-top: 30px;
+  }
+  .team-item-container {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .about-items-right > p {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1400px) {
+  .team-item-container {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .about-items-right > p {
+    width: 100%;
+  }
+}

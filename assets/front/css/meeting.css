@@ -1,0 +1,62 @@
+.meeting-our-team{
+
+        padding: 35px 10px;
+
+}
+.meeting-our-team h2 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.2px;
+        padding: 20px 0px;
+
+    color: #232323;
+}
+
+.meeting-our-team .team-card h5 {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.meeting-our-team .team-card h4 {
+
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 113.38%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    padding: 20px;
+
+    color: #000000;
+}
+
+.meeting-our-team .team-card:hover {
+    background: #541554;
+border: 1.07038px solid #E3E3E3;
+border-radius: 17.1234px;
+}
+.meeting-our-team .inner {
+    display: flex;
+    justify-content: space-between;
+}
+.meeting-our-team .team-card {
+    
+    box-sizing: border-box;
+width: 280.09px;
+height: 122.02px;
+    background: #FFFFFF;
+    border: 1.07038px solid #E3E3E3;
+    border-radius: 17.1234px
+}

@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/clash-display");
+
+.login-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-logo > img {
+  width: 46.88px;
+  height: 46.88px;
+}
+.login-logo > span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27.4305px;
+  line-height: 41px;
+  color: #333;
+  margin-left: 5px;
+}
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 20px 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.login-form-container > h3 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #181818;
+}
+label {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #1d2b4f;
+}
+.form-control {
+  width: 100%;
+  height: 48px;
+
+  background: #ffffff;
+
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+}
+.form-control-register{
+  width: 100% !important;
+  height: 48px;
+  background: #ffffff !important;
+  border: 1px solid #e6e6e6 !important;
+  border-radius: 8px !important;
+}
+
+.login-btn {
+  width: 100%;
+  display: block;
+  height: 56px;
+  border-radius: 8px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  border: 0;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin: 15px 0;
+  background: #541554;
+    border-color: #541554;
+}
+
+.forgot-pass {
+  padding: 10px 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #3c3c3c;
+}
+.create-acc {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #3c3c3c;
+}
+a:hover {
+  color: #3c3c3c;
+  cursor: pointer;
+}
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+.submit_btn:focus{
+  outline: none !important;
+}
+
+@media (max-width: 767px) {
+  .login-container {
+    height: auto;
+  }
+  .login-form-container {
+    width: 85%;
+    border-radius: 5px;
+  }
+  .login-form-container > h3 {
+    font-size: 30px;
+  }
+  .login-btn {
+    height: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+  .login-form-container {
+    width: 70%;
+    border-radius: 5px;
+  }
+  .login-container {
+    height: auto;
+  }
+}

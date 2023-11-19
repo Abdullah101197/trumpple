@@ -1,0 +1,553 @@
+.sale-header {
+
+    align-items: center;
+    padding: 75px 80px;
+
+}
+
+.sale-header .sale-header-text-left h3 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 120%;
+    display: flex;
+    max-width: 380px;
+    color: #FFFFFF;
+}
+
+.sale-header .sale-header-text-left p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.sale-header .sale-header-text-left img {
+
+    background: #FCF6FF;
+}
+
+.sale-header .sale-header-text-left button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 20px;
+    gap: 12px;
+
+    background: #FFFFFF;
+    border-radius: 12px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+
+    color: #541554;
+}
+
+
+.boost-sales {
+
+    text-align: center;
+    padding: 50px;
+
+    background: #FFFFFF;
+
+}
+
+.boost-sales h3 {
+
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    color: #181818;
+}
+
+.boost-sales p {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #232C35;
+    max-width: 924px;
+    margin: 0 auto;
+}
+
+.boost-sales .boost-sales-boxes ul li h4 {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #232C35;
+}
+
+.boost-sales .boost-sales-boxes ul li img {
+
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0px 17px 35px rgba(226, 217, 220, 0.3);
+    border-radius: 28px;
+    padding: 50px 95px 10px 0px;
+
+
+}
+
+.boost-sales .boost-sales-boxes ul {}
+
+.boost-sales .boost-sales-boxes ul li {
+
+    display: inline-block;
+}
+
+.boost-sales .boost-sales-boxes ul li p {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #434D56;
+    text-align: initial;
+    padding-left: 185px;
+    max-width: 528px;
+
+
+}
+
+.boost-sales .boosr-sales-bottom {
+    max-width: 557px;
+
+    margin: 0 auto;
+
+}
+
+.boost-sales .boosr-sales-bottom h3 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #181818;
+
+}
+
+
+.business-show-case .business-show-case-right ul li h5 {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #541554;
+    padding: 130px 0px 25px 0px;
+
+}
+
+.business-show-case .business-show-case-right ul li h3 {
+
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    max-width: 355px;
+
+    color: #181818;
+
+}
+
+.business-show-case .business-show-case-right ul li p {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #474747;
+    opacity: 0.6;
+    max-width: 478px;
+
+
+}
+
+.business-show-case .business-show-case-right ul li button {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 40px;
+    gap: 8px;
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 23.96%, rgba(255, 255, 255, 0) 100%), #541554;
+    border-radius: 14px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+
+
+
+.bookeeping-show-case .bookeeping-show-case-left ul li button {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 40px;
+    gap: 8px;
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 23.96%, rgba(255, 255, 255, 0) 100%), #541554;
+    border-radius: 14px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+
+.bookeeping-show-case .bookeeping-show-case-left ul li p {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #474747;
+    opacity: 0.6;
+    max-width: 478px;
+
+
+}
+
+.bookeeping-show-case .bookeeping-show-case-left ul li h5 {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #541554;
+    padding: 130px 0px 25px 0px;
+
+}
+
+.bookeeping-show-case .bookeeping-show-case-left ul li h3 {
+
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    max-width: 367px;
+
+    color: #181818;
+
+}
+
+.bookeeping-show-case .bookeeping-show-case-right {
+
+    background: #FFFFFF;
+}
+
+
+.business-show-case .business-show-case-right ul li h5 {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #541554;
+    padding: 130px 0px 25px 0px;
+
+}
+
+.business-show-case .business-show-case-right ul li h3 {
+
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    max-width: 355px;
+
+    color: #181818;
+
+}
+
+.business-show-case .business-show-case-right ul li p {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #474747;
+    opacity: 0.6;
+    max-width: 478px;
+
+
+}
+
+.business-show-case .business-show-case-right ul li button {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 40px;
+    gap: 8px;
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 23.96%, rgba(255, 255, 255, 0) 100%), #541554;
+    border-radius: 14px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+
+
+
+.financeMagment .financeMagment-show-case-right ul li h5 {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #541554;
+    padding: 130px 0px 25px 0px;
+
+}
+
+.financeMagment .financeMagment-show-case-right ul li h3 {
+
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    max-width: 355px;
+
+    color: #181818;
+
+}
+
+.financeMagment .financeMagment-show-case-right ul li p {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #474747;
+    opacity: 0.6;
+    max-width: 478px;
+
+
+}
+
+.financeMagment .financeMagment-show-case-right ul li button {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 40px;
+    gap: 8px;
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 23.96%, rgba(255, 255, 255, 0) 100%), #541554;
+    border-radius: 14px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+
+.year-experiences {
+    background: #541554;
+    text-align: center;
+    padding: 45px;
+
+}
+
+.year-experiences .divider {
+
+    display: flex;
+    justify-content: space-around
+}
+
+.year-experiences .divider img {
+
+    opacity: 0.5;
+    border: 0px solid #FFFFFF;
+    transform: rotate(0deg);
+}
+
+.year-experiences .divider h6 {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    padding: 25px 0px;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.year-experiences .divider h4 {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+
+    display: flex;
+    align-items: center;
+    border: 2px solid #FFFFFF;
+    border-top: #541554;
+    border-left: #541554;
+    border-right: #541554;
+    color: #FFFFFF;
+}
+
+.year-experiences h6 {
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    padding: 0px 0px 25px 0px;
+
+
+    color: #FFFFFF;
+
+    opacity: 0.6;
+}
+
+.analytics .inner img {
+
+    width: 100%;
+
+}
+
+.analytics .inner h3 {
+
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 120%;
+    align-items: center;
+
+    color: #FFFFFF;
+    position: relative;
+    top: -425px;
+    max-width: 392px;
+    left: 77px;
+}
+
+.analytics .inner button {
+    align-items: center;
+    padding: 24px 32px;
+    gap: 12px;
+
+    width: 209px;
+    height: 72px;
+    position: relative;
+    top: -390px;
+    max-width: 392px;
+    left: 77px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+
+}
+
+.vision-section {
+
+    text-align: center;
+    background: #541554;
+    padding: 50px;
+
+}
+
+.vision-section h3 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    padding: 0px 0px 30px 0px;
+
+    color: #FFFFFF;
+}
+
+.vision-section button {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 180%;
+    color: #541554;
+    align-items: center;
+    padding: 16px 32px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 23.96%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+    border-radius: 14px;
+
+}

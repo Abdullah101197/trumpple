@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/clash-display");
+.navbar-expand-md .navbar-collapse {
+  justify-content: flex-end;
+}
+.navbar-expand-md .navbar-nav .nav-link:focus{
+  color: #fff;
+}
+.navbar-container {
+  min-height: 90px;
+  background: #541554;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar-brand > img {
+  width: 46.88px;
+  height: 46.88px;
+}
+.navbar-brand > span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27.4305px;
+  line-height: 41px;
+  color: #ffffff;
+  margin-left: 5px;
+}
+.navbar-nav {
+  width: 100%;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-items-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.nav-link {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #e7e7e7;
+  padding: 0 25px !important;
+}
+.nav-link:hover {
+  color: #fff;
+}
+.btn-login {
+  width: 130px;
+  height: 46px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  line-height: 46px;
+  border-radius: 10px;
+}
+.btn-login:hover {
+  color: #541554;
+  background-color: #fff;
+}
+.nav-btn-container{
+  font-size: 0;
+}
+.nav-btn-container .btn-sm {
+  width: 130px;
+  height: 46px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  line-height: 46px;
+  border-radius: 10px;
+  padding: 0;
+}
+.nav-btn-container .btn-sm:hover{
+  background-color: #fff;
+  color: #541554 !important;
+} 
+.btn-sign-up > button {
+  border: 0;
+  width: 130px;
+  height: 46px;
+  border-radius: 11px;
+  transition: 0.3s;
+  color: white;
+  font-weight: 600;
+  background: transparent;
+  font-size: 16px;
+}
+.btn-sign-up > button:hover {
+  color: #541554;
+  background-color: #fff;
+}
+.custom-toggler.navbar-toggler {
+  border-color: white;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+/* Setting the stroke to green using rgb values (0, 128, 0) */
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='	rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.dropbtn {
+  border: none;
+}
+
+.nav-dropdown {
+  position: relative;
+  line-height: 50px;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 190px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 2px;
+  padding: 10px 0;
+}
+
+.dropdown-content a {
+  color: #541554;
+  padding: 8px 16px !important;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  font-family: "Open Sans";
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: #541554;
+}
+
+.nav-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.nav-dropdown:hover .dropbtn {
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  .navbar-brand > img {
+    height: 40px;
+    width: 40px;
+  }
+  .navbar-brand > span {
+    font-size: 20px;
+  }
+  .navbar-nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  .navbar-items-container {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: start;
+    flex: 1;
+  }
+  .btn-sign-up > button {
+    width: 100px;
+    height: 35px;
+  }
+  .nav-link {
+    padding: 7px 0 !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+  .nav-link {
+    font-size: 14px;
+    padding: 0 10px !important;
+  }
+  .btn-login {
+    font-size: 14px;
+  }
+  .btn-sign-up > button {
+    width: 100px;
+    height: 35px;
+    border-radius: 7px;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar-nav {
+    width: 866px;
+  }
+}

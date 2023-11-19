@@ -1,0 +1,157 @@
+.main-top-wrapper .contact-header-text h3 {
+
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 88px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.main-top-wrapper .contact-header-text p {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+    max-width: 622px;
+    padding-bottom: 50px;
+}
+
+
+.contact-form button {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 40px;
+    gap: 10px;
+    background: #541554;
+    border-radius: 8px;
+
+    margin: 40px 0px 0px 0px;
+
+}
+
+.contact-form textarea {
+
+    box-sizing: border-box;
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 16px 160px;
+    gap: 10px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.contact-form input {
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 16px;
+    gap: 10px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 8px;
+
+    width: 100%;
+
+
+}
+
+.contact-form label {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 8px;
+
+padding: 20px 0px 20px 0px;
+    color: #1D2B4F;
+}
+
+.office-card {
+
+    box-sizing: border-box;
+
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 8px;
+}
+
+.contact-form ul li p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 180%;
+
+    color: #969696;
+}
+
+.contact-form ul li h5 {
+
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #1D2B4F;
+}
+
+.contact-form .office-card .social-media img {
+    padding: 0px 2px;
+
+}
+
+.contact-form .office-card .social-media {
+
+    display: inline-flex;
+
+
+}
+
+.contact-form {
+
+    margin: 100px;
+
+}
+
+
+.contact-form h3 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    text-transform: capitalize;
+
+    color: #181818;
+}

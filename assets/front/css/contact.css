@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/clash-display");
+
+.contact-hero-container {
+  height: calc(410px - 90px);
+  width: 100%;
+  background: #541554;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-hero-container > h3 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 88px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.contact-hero-container > p {
+  width: 609px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  color: #ffffff;
+}
+.contact-container {
+  padding: 90px 0;
+}
+.contact-fields-container {
+  width: 688px;
+  height: 612px;
+}
+label {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #1d2b4f;
+}
+.form-control {
+  width: 688px;
+  height: 48px;
+  left: 104.29px;
+  top: 549px;
+
+  background: #ffffff;
+
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+}
+.contact-textarea {
+  width: 688px;
+  height: 196px;
+  background: #ffffff;
+
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+}
+.contact-btn {
+  width: 195px;
+  height: 56px;
+  background: #541554;
+  border-radius: 8px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  border: 0;
+  text-transform: capitalize;
+  color: #ffffff;
+  border: 1px solid transparent;
+}
+.contact-btn:hover {
+  background:transparent;
+  border: 1px solid #541554;
+  color: #541554;
+}
+.contact-right-container > h3 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+
+  text-transform: capitalize;
+  color: #181818;
+}
+.contact-text-container {
+  width: 400px;
+  height: 340px;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-text-container > h5 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #1d2b4f;
+  margin-bottom: 10px;
+}
+.contact-text-container > p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 180%;
+  color: #969696;
+}
+.form-control::placeholder {
+  font-size: 14px;
+}
+.social-media{
+  margin-top: 5px;
+}
+.social-media a{
+  margin-right: 10px;
+}
+@media (max-width: 767px) {
+  .contact-hero-container {
+    height: auto;
+    padding: 25px 0;
+  }
+  .contact-hero-container > h3 {
+    font-size: 35px;
+  }
+  .contact-hero-container > p {
+    width: 100%;
+  }
+  .contact-fields-container {
+    width: 100%;
+    height: auto;
+  }
+  .contact-textarea {
+    width: 100%;
+  }
+  .form-control {
+    width: 100%;
+  }
+  .contact-text-container {
+    width: 100%;
+    height: auto;
+    padding: 25px 10px;
+  }
+  .contact-btn {
+    height: 40px;
+  }
+  .contact-right-container {
+    margin-top: 15px;
+  }
+  .contact-text-container > h3 {
+    font-size: 25px;
+  }
+
+  .landing-last-sec {
+    height: auto;
+    padding: 20px 0;
+  }
+  .landing-last-sec > h3 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .landing-last-sec > button {
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+  .contact-fields-container {
+    width: 100%;
+  }
+  .form-control {
+    width: 100%;
+  }
+  .contact-textarea {
+    width: 100%;
+  }
+  .contact-text-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .contact-fields-container {
+    width: 100%;
+  }
+  .form-control {
+    width: 100%;
+  }
+  .contact-textarea {
+    width: 100%;
+  }
+  .contact-text-container {
+    width: 100%;
+  }
+}
